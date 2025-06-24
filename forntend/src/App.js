@@ -7,6 +7,8 @@ import Shop from './components/Shop';
 import Why from './components/Why';
 import Category from './components/Category';
 import Footer from './components/Footer';
+import Mid from './components/Mid';
+
 function App() {
   return (
     <Router>
@@ -17,6 +19,7 @@ function App() {
             <>
               <Hero/>
               <Shoeshow/>
+              <Mid/>
               <Category/>
               <Why/>
               

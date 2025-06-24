@@ -10,16 +10,16 @@ function Footer() {
             <h3 className="mb-4 text-sm font-semibold text-black">Resources</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#">Find a Store</a>
+                <button className="hover:underline">Find a Store</button>
               </li>
               <li>
-                <a href="#">Become a Member</a>
+                <button className="hover:underline">Become a Member</button>
               </li>
               <li>
-                <a href="#">Feedback</a>
+                <button className="hover:underline">Feedback</button>
               </li>
               <li>
-                <a href="#">Product Advice</a>
+                <button className="hover:underline">Product Advice</button>
               </li>
             </ul>
           </div>
@@ -29,28 +29,30 @@ function Footer() {
             <h3 className="mb-4 text-sm font-semibold text-black">Help</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#">Get Help</a>
+                <button className="hover:underline">Get Help</button>
               </li>
               <li>
-                <a href="#">Order Status</a>
+                <button className="hover:underline">Order Status</button>
               </li>
               <li>
-                <a href="#">Shipping and Delivery</a>
+                <button className="hover:underline">
+                  Shipping and Delivery
+                </button>
               </li>
               <li>
-                <a href="#">Returns</a>
+                <button className="hover:underline">Returns</button>
               </li>
               <li>
-                <a href="#">Payment Options</a>
+                <button className="hover:underline">Payment Options</button>
               </li>
               <li>
-                <a href="#">Contact Us</a>
+                <button className="hover:underline">Contact Us</button>
               </li>
               <li>
-                <a href="#">Reviews</a>
+                <button className="hover:underline">Reviews</button>
               </li>
               <li>
-                <a href="#">Terms & Conditions</a>
+                <button className="hover:underline">Terms & Conditions</button>
               </li>
             </ul>
           </div>
@@ -60,19 +62,19 @@ function Footer() {
             <h3 className="mb-4 text-sm font-semibold text-black">Company</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#">About Nike</a>
+                <button className="hover:underline">About Nike</button>
               </li>
               <li>
-                <a href="#">News</a>
+                <button className="hover:underline">News</button>
               </li>
               <li>
-                <a href="#">Careers</a>
+                <button className="hover:underline">Careers</button>
               </li>
               <li>
-                <a href="#">Investors</a>
+                <button className="hover:underline">Investors</button>
               </li>
               <li>
-                <a href="#">Sustainability</a>
+                <button className="hover:underline">Sustainability</button>
               </li>
             </ul>
           </div>
@@ -82,13 +84,13 @@ function Footer() {
             <h3 className="mb-4 text-sm font-semibold text-black">Franchise</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#">Air Force 1</a>
+                <button className="hover:underline">Air Force 1</button>
               </li>
               <li>
-                <a href="#">Air Jordan 1</a>
+                <button className="hover:underline">Air Jordan 1</button>
               </li>
               <li>
-                <a href="#">Pegasus</a>
+                <button className="hover:underline">Pegasus</button>
               </li>
             </ul>
           </div>
@@ -102,9 +104,9 @@ function Footer() {
           </div>
           <div className="flex flex-wrap gap-4 text-center sm:text-left">
             <span>© 2025 Nike, Inc. All rights reserved</span>
-            <a href="#">Terms of Use</a>
-            <a href="#">Terms of Sale</a>
-            <a href="#">Privacy & Cookie Policy</a>
+            <button className="hover:underline">Terms of Use</button>
+            <button className="hover:underline">Terms of Sale</button>
+            <button className="hover:underline">Privacy & Cookie Policy</button>
           </div>
         </div>
       </div>

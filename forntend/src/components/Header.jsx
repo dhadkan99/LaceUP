@@ -8,7 +8,7 @@ function Header() {
       <nav className="container flex justify-center items-center px-6 py-4 mx-auto">
         <div className="absolute left-6">
           <Link to="/">
-            <h1 className="text-4xl font-extrabold">Lace UP</h1>
+            <h1 className="flex text-4xl font-extrabold text-white">Lace UP</h1>
           </Link>
         </div>
         <ul className="flex justify-center space-x-8 font-medium text-center text-white">
@@ -43,7 +43,7 @@ function Header() {
             </Link>
           </li>
         </ul>
-        <div className="flex absolute right-6 items-center space-x-4 text-xl text-black">
+        <div className="flex absolute right-6 items-center space-x-4 text-xl text-white">
           <button title="Language" className="hover:text-gray-600">
             <MdOutlineLanguage />
           </button>
