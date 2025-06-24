@@ -49,7 +49,7 @@ function Category() {
   }, []);
 
   return (
-    <section className="relative px-6 py-16 mx-auto max-w-7xl text-black">
+    <section className="relative px-6 py-16 mx-auto max-w-full text-black">
       <h1 className="mb-12 text-4xl font-bold text-center">Categories</h1>
       <div className="grid gap-10 md:grid-cols-3">
         {reasons.map(({ id, title, description, image }) => (

@@ -150,7 +150,7 @@ function Shoeshow() {
   };
 
   return (
-    <section className="relative px-6 py-16 mx-auto max-w-7xl">
+    <section className="relative px-6 py-16 mx-auto w-full">
       <h2 className="mb-4 text-3xl font-semibold text-center text-gray-900">
         Featured Collection
       </h2>

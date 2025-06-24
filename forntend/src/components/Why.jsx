@@ -49,7 +49,7 @@ function Why() {
   }, []);
 
   return (
-    <section className="relative px-6 py-16 mx-auto max-w-7xl text-black">
+    <section className="relative px-6 py-16 mx-auto w-full text-black">
       <h1 className="mb-12 text-4xl font-bold text-center">
         Why Choose LaceUP?
       </h1>
